@@ -24,7 +24,7 @@ const MouseEvent = () => {
           </button>
         </div>
       </div>
-      <hr/>
+      <hr />
       <Keys />
     </>
   );

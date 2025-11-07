@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const TouchEvent = () => {
-  let [touch, setTouch] = useState("");
+  let [touch, setTouch] = useState("orange");
   let handleTouchStart = () => {
     setTouch("green");
   };
@@ -22,7 +22,19 @@ const TouchEvent = () => {
               onTouchStart={handleTouchStart}
               onTouchEnd={handleTouchEnd}
               onTouchMove={handleTouchMove}
-              style={{ backgroundColor: touch,border:"2px solid black", height:"150px", width:"150px", display:"flex", justifyContent:"center", alignItems:"center", fontSize:"20px", fontWeight:"bold", userSelect:"none" }}>
+              style={{
+                backgroundColor: touch,
+                border: "2px solid black",
+                height: "150px",
+                width: "150px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                fontSize: "20px",
+                fontWeight: "bold",
+                userSelect: "none",
+              }}
+            >
               Touch Here
             </div>
           </div>

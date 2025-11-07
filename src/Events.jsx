@@ -13,11 +13,10 @@ const Events = () => {
   };
   return (
     <>
-    <div className="headclickevents">
-      <h1>Click-Events</h1>
-    </div>
+      <div className="headclickevents">
+        <h1>Click-Events</h1>
+      </div>
       <div className="mainclickevents">
-        
         <div className="clickEvent">
           <h2>{clicks}</h2>
           <button onClick={click}>onclick</button>

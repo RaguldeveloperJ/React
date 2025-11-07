@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Useeffect from './Useeffect';
 
 
 export default function Count() {
@@ -25,6 +26,7 @@ export default function Count() {
                     <button onClick={Reset}>Reset</button>
                 </div>
             </div>
+            <Useeffect />
 
         </>
     )

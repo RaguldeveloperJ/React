@@ -1,30 +1,35 @@
-import React,{useState} from 'react'
-import TouchEvent from './TouchEvent'
+import React, { useState } from "react";
+import TouchEvent from "./TouchEvent";
 
 const Formevent = () => {
-    let [form,setForm]=useState("")
+  let [form, setForm] = useState("");
 
-    let onblur=()=>{
-        setForm("Input field is blurred")
-    }
-    let onFocus=()=>{
-        setForm("Input field is focused")
-    }
+  let onblur = () => {
+    setForm("Input field is blurred");
+  };
+  let onFocus = () => {
+    setForm("Input field is focused");
+  };
   return (
     <>
-       <div className="headclickevents">
+      <div className="headclickevents">
         <h1>Form-Events</h1>
       </div>
       <div className="mainclickevents">
         <div className="clickEvent">
-            <h2>{form}</h2>
-          <input type="text"   placeholder='Type something...' onBlur={onblur} onFocus={onFocus}/>
+          <h2>{form}</h2>
+          <input
+            type="text"
+            placeholder="Type something..."
+            onBlur={onblur}
+            onFocus={onFocus}
+          />
         </div>
       </div>
-      <hr/>
-        <TouchEvent/>
+      <hr />
+      <TouchEvent />
     </>
-  )
-}
+  );
+};
 
-export default Formevent
+export default Formevent;

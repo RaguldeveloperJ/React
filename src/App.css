@@ -195,3 +195,18 @@ nav ul li {
     padding-left: 10px;
     outline: none;
 }
+
+.useeffect-hook{
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+.useeffect-hook button{
+    width: 150px;
+    height: 40px;
+    background-color: #2483f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
