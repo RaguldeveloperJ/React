@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RaguldeveloperJ/React/static/css/main.2d888f78.css",
-    "main.js": "/RaguldeveloperJ/React/static/js/main.964f693f.js",
-    "static/js/453.311b3dbc.chunk.js": "/RaguldeveloperJ/React/static/js/453.311b3dbc.chunk.js",
-    "index.html": "/RaguldeveloperJ/React/index.html",
-    "main.2d888f78.css.map": "/RaguldeveloperJ/React/static/css/main.2d888f78.css.map",
-    "main.964f693f.js.map": "/RaguldeveloperJ/React/static/js/main.964f693f.js.map",
-    "453.311b3dbc.chunk.js.map": "/RaguldeveloperJ/React/static/js/453.311b3dbc.chunk.js.map"
+    "main.css": "/RaguldeveloperJ.github.io/React/static/css/main.2d888f78.css",
+    "main.js": "/RaguldeveloperJ.github.io/React/static/js/main.6caa23ba.js",
+    "static/js/453.311b3dbc.chunk.js": "/RaguldeveloperJ.github.io/React/static/js/453.311b3dbc.chunk.js",
+    "index.html": "/RaguldeveloperJ.github.io/React/index.html",
+    "main.2d888f78.css.map": "/RaguldeveloperJ.github.io/React/static/css/main.2d888f78.css.map",
+    "main.6caa23ba.js.map": "/RaguldeveloperJ.github.io/React/static/js/main.6caa23ba.js.map",
+    "453.311b3dbc.chunk.js.map": "/RaguldeveloperJ.github.io/React/static/js/453.311b3dbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d888f78.css",
-    "static/js/main.964f693f.js"
+    "static/js/main.6caa23ba.js"
   ]
 }
