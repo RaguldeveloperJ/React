@@ -8,11 +8,15 @@ const Useeffect = () => {
     }
   }, [count]);
   return (
-    <div className="useeffect-hook">
-      <h1>UseEffect Hook Example</h1>
-      <h2>Count: {count}</h2>
-      <button onClick={() => setCount(count + 1)}>Increment Count</button>
-    </div>
+    <>
+      <div>
+        <div className="useeffect-hook">
+          <h1>UseEffect Hook </h1>
+          <h2>Count: {count}</h2>
+          <button onClick={() => setCount(count + 1)}>Increment Count</button>
+        </div>
+      </div>
+    </>
   );
 };
 
