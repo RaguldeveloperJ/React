@@ -83,10 +83,10 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: 600px;
 }
 
 nav ul li {
