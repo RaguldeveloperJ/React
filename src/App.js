@@ -10,8 +10,6 @@ function App() {
         <Anchors />
         <Approuter />
       </BrowserRouter>
-
-
     </>
 
   );
