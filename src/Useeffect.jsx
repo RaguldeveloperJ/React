@@ -7,13 +7,17 @@ const Useeffect = () => {
       alert("Count is 5");
     }
   }, [count]);
+
+  const clickhandler=()=>{
+    setCount(count+1);
+  }
   return (
     <>
       <div>
         <div className="useeffect-hook">
           <h1>UseEffect Hook </h1>
           <h2>Count: {count}</h2>
-          <button onClick={() => setCount(count + 1)}>Increment Count</button>
+          <button onClick={clickhandler}>Increment Count</button>
         </div>
       </div>
     </>
