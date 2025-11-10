@@ -18,8 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    
 
   },
   "eslintConfig": {
@@ -42,6 +41,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://github.com/RaguldeveloperJ/my-react-app"
+  }
+  
 }
