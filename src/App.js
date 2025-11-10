@@ -2,14 +2,14 @@
 import './App.css';
 import Anchors from "./components/Anchors"
 import Approuter from './components/Approuter';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Anchors />
         <Approuter />
-      </BrowserRouter>
+      </HashRouter>
     </>
 
   );
