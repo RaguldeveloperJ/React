@@ -9,10 +9,10 @@ export default function Count() {
         setCount(count+1)
     }
     let decrement=()=>{
-        setCount(count+1)
+        setCount(count-1)
     }
     let reset=()=>{
-        setCount(count+1)
+        setCount(0)
     }
 
 
