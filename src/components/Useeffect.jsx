@@ -10,7 +10,7 @@ const Useeffect = () => {
 
   const clickhandler=()=>{
     setCount(count+1);
-  }
+  }                    
   return (
     <>
       <div>
