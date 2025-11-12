@@ -83,11 +83,9 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 60%;
-    gap: 10px;
+    gap: 30px;
 }
 
 nav ul li {
