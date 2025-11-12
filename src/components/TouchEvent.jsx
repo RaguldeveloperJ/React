@@ -32,7 +32,6 @@ const TouchEvent = () => {
                 alignItems: "center",
                 fontSize: "20px",
                 fontWeight: "bold",
-                
               }}
             >
               Touch Here

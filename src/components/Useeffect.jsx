@@ -8,9 +8,9 @@ const Useeffect = () => {
     }
   }, [count]);
 
-  const clickhandler=()=>{
-    setCount(count+1);
-  }                    
+  const clickhandler = () => {
+    setCount(count + 1);
+  };
   return (
     <>
       <div>
