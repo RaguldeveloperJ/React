@@ -87,6 +87,7 @@ nav ul {
     align-items: center;
     flex-wrap: wrap;
     width: 60%;
+    gap: 10px;
 }
 
 nav ul li {
