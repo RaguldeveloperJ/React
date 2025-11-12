@@ -211,3 +211,39 @@ nav ul li {
     border-radius: 5px;
     font-size: 16px;
 }
+.container-Api{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+.subcontainer-Api{
+    border: 1px solid gray;
+    width:400px;
+    padding: 10px;
+    line-height: 25px;
+    border-radius: 20px;
+}
+.subcontainer-Api1{
+    background-color: rgba(163, 184, 202, 0.205);
+    border: 1px solid gray;
+    width:400px;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+.table-container{
+    border-collapse: collapse;
+}
+.table-container th,td{
+    border: 1px solid gray;
+    padding: 10px;
+ 
+    
+}
+.tbody-image img{
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+}

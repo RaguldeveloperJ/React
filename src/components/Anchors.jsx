@@ -13,6 +13,7 @@ const Anchors = () => {
           <li><Link to="/Count" className='link'>Count</Link></li>
           <li><Link to="/Props" className='link'>Props</Link></li>
           <li><Link to="/Events" className='link'>Events</Link></li>
+          <li><Link to="/Api" className='link'>Api</Link></li>
         </ul>
       </nav>
 
