@@ -98,7 +98,7 @@ nav ul li {
     color: black;
 }
 
-.heading {
+.heading1 {
     font-size: 50px;
     color: rgb(2, 66, 185);
     font-family: 'Times New Roman', Times, serif;
@@ -243,4 +243,11 @@ nav ul li {
     width:200px;
     height: 200px;
     border-radius: 10px;
+}
+.heading{
+    font-size: 50px;
+    color: rgb(2, 66, 185);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(32, 29, 29);
 }

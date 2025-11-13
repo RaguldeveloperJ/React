@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Recipes from "./Recipes";
+
 
 const Api2 = () => {
   const [get, setGet] = useState([]);
@@ -46,7 +46,7 @@ const Api2 = () => {
       </div>
       <br />
       <br />
-      <Recipes />
+      
     </>
   );
 };

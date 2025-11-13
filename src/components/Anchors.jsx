@@ -33,8 +33,8 @@ const Anchors = () => {
             </Link>
           </li>
           <li>
-            <Link to="/Api" className="link">
-              Api
+            <Link to="/Apicalls" className="link">
+              Apicalls
             </Link>
           </li>
         </ul>

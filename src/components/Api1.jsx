@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Api2 from "./Api2";
+
 
 const Api1 = () => {
   const [post, setPost] = useState([]);
@@ -40,7 +40,7 @@ const Api1 = () => {
           );
         })}
       </div>
-      <Api2 />
+      
     </>
   );
 };
