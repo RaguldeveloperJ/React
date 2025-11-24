@@ -37,6 +37,11 @@ const Anchors = () => {
               Apicalls
             </Link>
           </li>
+          <li>
+            <Link to="/ES6" className="link">
+              ES6
+            </Link>
+          </li>
         </ul>
       </nav>
     </>
