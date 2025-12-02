@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ragul",
+      "email": "ragul@mail.com"
+    },
+    {
+      "id": "2",
+      "name": "Kumar",
+      "email": "kumar@mail.com"
+    },
+    {
+      "name": "Thulasi",
+      "job": "fronted-developer",
+      "id": "e758"
+    },
+    {
+      "name": "Nikith",
+      "email": "nikith@gmail.com",
+      "id": "4e3a"
+    },
+    {
+      "id": "ecd1",
+      "name": "yeshu",
+      "email": "yeshu@gmail.com"
+    }
+  ]
+}
